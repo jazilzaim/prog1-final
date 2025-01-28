@@ -19,7 +19,7 @@ public class Home {
         this.saleStatus = saleStatus;
     }
 
-    // Getters and setters
+    // Getter and setter functions
     public void setSaleStatus(String status) throws IllegalArgumentException {
         if (!status.equalsIgnoreCase("sold") && 
             !status.equalsIgnoreCase("available") && 

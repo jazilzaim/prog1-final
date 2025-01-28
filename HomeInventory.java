@@ -60,7 +60,7 @@ public class HomeInventory {
         try {
             HomeInventory inventory = new HomeInventory();
             
-            // Add a sample home
+            // Sample new home 
             Home home1 = new Home(3000, "86th Street", "Seattle", "WA", 
                                 98275, "Luxury Cove", "Available");
             System.out.println(inventory.addHome(home1));
@@ -85,7 +85,7 @@ public class HomeInventory {
             System.out.println("\nFinal Inventory:");
             inventory.listHomes();
             
-            // Ask about saving to file
+            // Prompt user about saving to file
             Scanner scanner = new Scanner(System.in);
             System.out.print("\nWould you like to save the information to a file? (Y/N): ");
             String response = scanner.nextLine();
